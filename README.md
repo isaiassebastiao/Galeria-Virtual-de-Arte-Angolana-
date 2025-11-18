@@ -19,7 +19,7 @@ Uma plataforma digital dedicada à divulgação de artistas angolanos, permitind
 - Gestão simples de disponibilidade e informações de venda.
 
 ### Agenda Cultural
-- Listagem de exposições, feiras e eventos ligados ao mundo artístico.
+- Listagem de exposições e eventos ligados ao mundo artístico.
 - Informações como data, local e descrição do evento.
 
 
@@ -56,4 +56,4 @@ Mova a pasta clonada para **htdocs** (se usar XAMPP), para **www** (se usar WAMP
 
 ### 4. Executar o Projecto
 
-No navegador, pesquise: http://localhost/nomeDoProjectoClonado
+No navegador, pesquise: http://localhost/nomeDoRepositorioClonado
