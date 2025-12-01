@@ -1,0 +1,34 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache / temporários do PHP
+*.tmp
+*.cache
+*.session
+
+# Composer
+/vendor/
+composer.lock
+
+# Node (se usar JS build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de backup
+*~
+*.bak
+*.swp
+
+# Arquivos sensíveis
+.env
