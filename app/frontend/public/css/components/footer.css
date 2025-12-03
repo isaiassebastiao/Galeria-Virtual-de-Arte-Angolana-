@@ -8,20 +8,24 @@ footer > section{
     display: flex;
 }
 
-.about-us{
+.about-us, .quick-links, .contact{
     width: 320px;
     text-align: justify;
 }
 .section-4{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 .section-5{
     margin-top: 20px;
     display: flex;
     justify-content: center;
     padding-bottom: 6px;
+}
+.section-5 p{
+    text-align: center;
 }
 
 ul{

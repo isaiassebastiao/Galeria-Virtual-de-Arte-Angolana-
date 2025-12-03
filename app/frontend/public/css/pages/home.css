@@ -28,54 +28,64 @@
 }
 
 .artwork{
+    overflow: hidden;
+    position: relative;
     height: 280px;
     width: 300px;
-    transition: .3s;
 }
 
-
-
-.artwork-item-1{
-    background: url('../../images/artes/Tarisa\ do\ Arnal.webp');
-    background-size: cover;
-}
-.artwork-item-2{
-    background: url('../../images/artes/vangog.webp');
-    background-size: cover;
-}
 .artwork-item-3{ 
     grid-row: 1/4; 
     grid-column: 3; 
     height: 580px;
-    background: url('../../images/artes/monalisa.jfif');
-    background-size: cover;
 }
 
-.artwork-item-4{
-    background: url('../../images/artes/clocks.jfif');
-    background-size: cover;
-}
 .artwork-item-5{
-
     grid-row: 2/4; 
     grid-column: 2; 
     height: 580px;
-    background: url('../../images/artes/woman.webp');
-    background-size: cover;
-}
-.artwork-item-6{
-    background: url('../../images/artes/Arte\ distorcida.webp');
-    background-size: cover;
 }
 
 .artwork-item-7{
     grid-row: 3/4; 
     grid-column: 3;
-    background: url('../../images/artes/artemoderna2.jpeg');
-    background-size: cover;
 }
 
-.artwork:hover{
+.artwork > div:hover{
     cursor: pointer;
-    transform: scale(1.02);
+    transform: scale(1.1);
 }
+
+.artwork > div{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .4s ease;
+}
+
+.artwork-item-1 > div{
+    background-image: url('../../images/artes/Tarisa\ do\ Arnal.webp');
+}
+.artwork-item-2 > div{
+    background-image: url('../../images/artes/vangog.webp');
+}
+.artwork-item-3 > div{
+    background-image: url('../../images/artes/monalisa.jfif');
+}
+.artwork-item-4 > div{
+    background-image: url('../../images/artes/clocks.jfif');
+}
+.artwork-item-5 > div{
+    background-image: url('../../images/artes/woman.webp');
+}
+.artwork-item-6 > div{
+    background-image: url('../../images/artes/Arte\ distorcida.webp');
+}
+.artwork-item-7 > div{
+    background-image: url('../../images/artes/artemoderna2.jpeg');
+}
+
+/*
+    qual o nome dos autores dessas imagens(obras de arte) e o nome delas ?
+*/
